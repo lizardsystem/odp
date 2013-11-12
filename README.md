@@ -26,10 +26,10 @@ $ sudo apt-get install postgresql solr-jetty
 $ sudo apt-get install postgresql-server-dev-9.1
 ```
 
- - Install git, pip
+ - Install git, pip and python-dev
 
 ```
-$ sudo aptitude install python-pip git
+$ sudo aptitude install python-pip python-dev git
 ```
  - Use pip to install virtualenv
 
@@ -56,6 +56,6 @@ $ pip install -e 'git+https://github.com/okfn/ckan.git#egg=ckan'
 ```
 $ pip install -r src/ckan/requirements.txt
 ```
- - That should perform a local install of SQLAlchemy, Beaker, Babel, Jinja, Gensha, Paste and a bunch of other libs needed by CKAN
+ - That should perform a local install of SQLAlchemy, Beaker, Babel, Jinja, Gensha, Paste and a bunch of other libs needed by CKAN. It'll take a while, especially since it will build some libs from source.
 
 

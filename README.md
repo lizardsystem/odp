@@ -21,10 +21,23 @@ Installation
 ```
 $ sudo apt-get update
 $ sudo apt-get install build-essential
-$ sudo apt-get install nodejs
 $ sudo apt-get install nginx apache2 libapache2-mod-wsgi libpq5
 $ sudo apt-get install postgresql solr-jetty
 $ sudo apt-get install postgresql-server-dev-9.1
+```
+
+ - Install nodejs
+
+```
+$ sudo apt-add-repository ppa:chris-lea/node.js
+$ sudo apt-get update
+$ sudo apt-get install nodejs
+```
+
+ - Use the Node packagemanger (npm) to install the Less CSS compiler:
+
+```
+$ sudo npm install -g less
 ```
 
  - Install git, pip and python-dev

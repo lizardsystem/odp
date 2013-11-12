@@ -20,8 +20,9 @@ Installation
 
 ```
 $ sudo apt-get update
-$ sudo apt-get install -y nginx apache2 libapache2-mod-wsgi libpq5
-$ sudo apt-get install -y postgresql solr-jetty
+$ sudo apt-get install build-essential
+$ sudo apt-get install nginx apache2 libapache2-mod-wsgi libpq5
+$ sudo apt-get install postgresql solr-jetty
 $ sudo apt-get install postgresql-server-dev-9.1
 ```
 
